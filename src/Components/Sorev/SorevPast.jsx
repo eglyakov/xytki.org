@@ -1,6 +1,7 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
 import SorevPastData from '../../data/sorevPastData.json';
+import img from '../../img/imgSorev.jpg';
 
 // import {prevSlide, nextSlide} from './SorevComing'
 
@@ -12,7 +13,7 @@ export const getSorevPast = () => {
     
                 <div className="sorev-item-block">
                     <div className="img">
-                        <img src={element.img} alt="банер соревнования" />
+                        <img src={element.img || img} alt="банер соревнования" />
                         <div className="caption">
                             <div><span className="bold">Дата:</span> {element.date}</div>
                         </div>

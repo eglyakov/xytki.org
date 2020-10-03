@@ -1,8 +1,7 @@
 import React from 'react';
 import SorevComingData from '../../data/sorevComingData.json';
 import {Link} from 'react-router-dom';
-import img from '../../img/imgSorev.jpg'
-import logoImg from '../../img/logo.png';
+import img from '../../img/imgSorev.jpg';
 
 export const getSorevComing = () => {
     let list = SorevComingData.map((element, index) => {
@@ -12,7 +11,7 @@ export const getSorevComing = () => {
     
                 <div className="sorev-item-block">
                     <div className="img">
-                        <img src={element.img || logoImg} alt="банер соревнования" />
+                        <img src={element.img || img} alt="банер соревнования" />
                         <div className="caption">
                             <div><span className="bold">Дата:</span> {element.date}</div>
                             <div><span className="bold">Регистрация:</span> {element.dateReg}</div>

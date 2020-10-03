@@ -8,6 +8,7 @@ import './css/Sorev.css';
 import './css/Info.css';
 import './css/Auth.css';
 import './css/AddCar.css';
+import './css/media.css';
 
 import Logo from './Components/Logo';
 import Nav from './Components/Nav';
@@ -52,7 +53,7 @@ function App() {
 					<Route path='/personal-date' component={PersonalDate} />
 					<Route path='/add-car' component={AddCar} />
 
-					<Route path='/doh-bolota' component={SorevItem} />
+					{/* <Route path='/doh-bolota' component={SorevItem} /> */}
 
 					<Route path='/auth' component={Auth} />
 

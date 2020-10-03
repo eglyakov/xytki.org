@@ -1,63 +1,75 @@
 [
     {
         "name": "Дахловские балота",
-        "img": "/static/media/imgSorev.ef3d9b1b.jpg",
+        "img": "https://photopodium.com/webroot/content/ntf/130262.jpg",
         "date": "02.10.2020 - 04.10.2020",
         "dateReg": "02.09.2020 - 01.10.2020",
         "place": "Брестская обл., Кобринский р-н возле д. Зосимы",
-        "linkSorev": "/doh-bolota",
         "linkForum": "http://4x4.by/forum/viewtopic.php?f=11&t=26709&view=unread#unread",
         "linkMap": "https://drive.google.com/file/d/12K3Ok2R608-1dS6zBW1ED21ijHwsA8Bf/view"
     },
     {
-        "name": "Дахловские балота",
-        "img": "https://xytki.org/events/6/Dahl.png",
-        "date": "02.10.2020 - 04.10.2020",
-        "dateReg": "02.09.2020 - 01.10.2020",
-        "place": "Брестская обл., Кобринский р-н возле д. Зосимы"
+        "name": "ДРЫГВА 2020",
+        "img": "https://kmvinform.ru/wp-content/uploads/2019/09/15681416015d77f121876611.57345144-600x400.jpg",
+        "date": "19.10.2020 - 20.10.2020",
+        "dateReg": "18.09.2020 - 18.09.2020",
+        "place": "Воложинский район, Беларусь",
+        "linkForum": "http://4x4.by/forum/viewtopic.php?f=11&t=26709&view=unread#unread",
+        "linkMap": "https://drive.google.com/file/d/12K3Ok2R608-1dS6zBW1ED21ijHwsA8Bf/view"
     },
     {
-        "name": "Дахловские балота",
-        "img": "https://xytki.org/events/35/35.png",
-        "date": "02.10.2020 - 04.10.2020",
-        "dateReg": "02.09.2020 - 01.10.2020",
-        "place": "Брестская обл., Кобринский р-н возле д. Зосимы"
+        "name": "Тайны Дриад",
+        "img": "http://media.club4x4.ru/uploads/posts/2014-12/1419689253_jw_008_7.jpeg",
+        "date": "22.11.2020 - 23.11.2020",
+        "dateReg": "21.10.2020 - 21.10.2020",
+        "place": "Минская область, Беларусь",
+        "linkForum": "http://4x4.by/forum/viewtopic.php?f=11&t=26709&view=unread#unread",
+        "linkMap": "https://drive.google.com/file/d/12K3Ok2R608-1dS6zBW1ED21ijHwsA8Bf/view"
     },
     {
-        "name": "Дахловские балота",
-        "img": "https://xytki.org/events/7/Kol2020baner.png",
-        "date": "02.10.2020 - 04.10.2020",
-        "dateReg": "02.09.2020 - 01.10.2020",
-        "place": "Брестская обл., Кобринский р-н возле д. Зосимы"
+        "name": "ПАПЛАВЫ 2020",
+        "img": "https://new.sakhanews.ru/wp-content/uploads/images/sport/sorevnovaniya-lyubitelej-vnedorozhnih-gonok-iz-neryungri-aldana-i-tindi_3.jpg",
+        "date": "06.11.2020 - 08.11.2020",
+        "dateReg": "05.10.2020 - 05.11.2020",
+        "place": "Крупки пкипкид. Клососимы",
+        "linkForum": "http://4x4.by/forum/viewtopic.php?f=11&t=26709&view=unread#unread",
+        "linkMap": "https://drive.google.com/file/d/12K3Ok2R608-1dS6zBW1ED21ijHwsA8Bf/view"
     },
     {
-        "name": "балота",
-        "img": "https://xytki.org/events/8/%D0%B0%D1%84%D0%B8%D1%88%D0%B0.png",
-        "date": "02.10.2020 ----",
-        "dateReg": "02.09.2020 - 01.10.2020",
-        "place": "Брестская обл., Кобринский р-н возле д. Зосимы"
+        "name": "ТелехХАРД",
+        "img": "https://7themes.su/php/imres/resize.php?width=1152&height=720&cropratio=16:10&image=/_ph/28/161506559.jpg",
+        "date": "09.01.2021 - 11.01.2021",
+        "dateReg": "08.12.2020 - 08.01.2021",
+        "place": "Брестская обл., Кобринский р-н возле д. Зосимы",
+        "linkForum": "http://4x4.by/forum/viewtopic.php?f=11&t=26709&view=unread#unread",
+        "linkMap": "https://drive.google.com/file/d/12K3Ok2R608-1dS6zBW1ED21ijHwsA8Bf/view"
     },
     {
-        "name": "балота",
-        "img": "/static/media/imgSorev.ef3d9b1b.jpg",
-        "date": "02.10.2020 ----",
-        "dateReg": "02.09.2020 - 01.10.2020",
-        "place": "Брестская обл., Кобринский р-н возле д. Зосимы"
+        "name": "Merlin Trophy",
+        "img": "https://img1.goodfon.ru/original/1280x720/e/b8/land-rover-defender-6914.jpg",
+        "date": "22.02.2021 - 23.02.2021",
+        "dateReg": "21.01.2020 - 21.02.2020",
+        "place": "Брестская обл., Кобринский р-н возле д. Зосимы",
+        "linkForum": "http://4x4.by/forum/viewtopic.php?f=11&t=26709&view=unread#unread",
+        "linkMap": "https://drive.google.com/file/d/12K3Ok2R608-1dS6zBW1ED21ijHwsA8Bf/view"
     },
     {
-        "name": "балота",
-        "img": "/static/media/imgSorev.ef3d9b1b.jpg",
-        "date": "02.10.2020 ----",
-        "dateReg": "02.09.2020 - 01.10.2020",
-        "place": "Брестская обл., Кобринский р-н возле д. Зосимы"
+        "name": "Джип-Спринт 7",
+        "img": "https://s3-eu-west-1.amazonaws.com/stips.cz/wp-content/uploads/2016/05/27133953/akni-den-1024x548.jpg",
+        "date": "14.04.2021 - 16.04.2021",
+        "dateReg": "13.03.2020 - 13.04.2020",
+        "place": "Брестская обл., Кобринский р-н возле д. Зосимы",
+        "linkForum": "http://4x4.by/forum/viewtopic.php?f=11&t=26709&view=unread#unread",
+        "linkMap": "https://drive.google.com/file/d/12K3Ok2R608-1dS6zBW1ED21ijHwsA8Bf/view"
     },
     {
-        "name": "балотhfnfnа",
-        "img": "/static/media/imgSorev.ef3d9b1b.jpg",
-        "date": "02.10.2020 ----",
-        "dateReg": "02.09.2020 - 01.10.2020",
-        "place": "Брестская обл., Кобринский р-н возле д. Зосимы"
+        "name": "Белорусский Триал",
+        "img": "https://pbs.twimg.com/media/D4B_eOdXoAAsOVt.jpg:large",
+        "date": "20.05.2021 - 21.05.2021",
+        "dateReg": "19.04.2020 - 19.05.2020",
+        "place": "Брестская обл., Кобринский р-н возле д. Зосимы",
+        "linkForum": "http://4x4.by/forum/viewtopic.php?f=11&t=26709&view=unread#unread",
+        "linkMap": "https://drive.google.com/file/d/12K3Ok2R608-1dS6zBW1ED21ijHwsA8Bf/view"
     }
-    
 ]
 

@@ -8,7 +8,7 @@ import Ppot from './PPOT';
 const Info = () => {
     return (
         <BrowserRouter>
-        <div className="info">
+        <div className="info width">
             <h2 className="title">Информация</h2>
             <div className="block">
                 <div className="date">08.06.2020</div>

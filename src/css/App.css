@@ -13,8 +13,37 @@ body {
     color: rgb(43, 42, 41);
 }
 
+.xytki {
+    min-width: 320px;
+}
+
 a {
     display: inline-block;
+}
+
+input,
+select,
+textarea {
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 1px solid  rgb(210, 55, 48);
+    font-size: 18px;
+}
+
+label {
+    padding-left: 5px;
+}
+
+.width {
+    width: 90%;
+    margin: 0 auto;
+    font-size: 18px;
+}
+
+.title {
+    padding: 15px 0 10px;
+    width: 100%;
+    text-align: center;
 }
 
 .container {
@@ -23,16 +52,20 @@ a {
 }
 
 .header {
-    /* background-color: #fed136; */
     background-color: #bdbdbd;
     box-shadow: 0 2px 5px  rgb(210, 55, 48);
-    /* border-bottom: 3px solid rgb(210, 55, 48); */
-    padding: 5px 0;
-    position: relative;
+    font-size: 18px;
+    padding: 5px;
+    height: 55px;
+    width: calc(100% - 10px);
+
+    position: fixed;
+    top: 0;
     z-index: 1;
 }
 
 .header .container {
+    height: 100%;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -45,6 +78,7 @@ a {
 
 .header .logo {
     width: 20%;
+    max-width: 300px;
 }
 
 .header .logo img {
@@ -58,6 +92,7 @@ a {
 }
 
 .main {
+    margin-top: 65px;
     position: relative;
 }
 

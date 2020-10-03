@@ -51,10 +51,10 @@ class Sorev extends React.Component {
     render() {
         return (
             <div className="sorev">               
-                <h2 className="sorev-title"><NavLink to='/sorev-coming-all'>Предстоящие мероприятия</NavLink></h2>
+                <h2 className="title"><NavLink to='/sorev-coming-all'>Предстоящие мероприятия</NavLink></h2>
                 <SorevComing />
     
-                <h2 className="sorev-title"><NavLink to='/sorev-past-all'>Прошедшие мероприятия</NavLink></h2>	
+                <h2 className="title"><NavLink to='/sorev-past-all'>Прошедшие мероприятия</NavLink></h2>	
                 <SorevPast />
             </div>
         );

@@ -1,30 +1,27 @@
-.main .sorev {
+.sorev {
     padding-bottom: 20px;
     flex: 0 0 80%;
     overflow: hidden;
 }
 
-.main .sorev-title {
+.sorev .title {
     color: rgb(43, 42, 41);
     padding: 15px 0 5px;
     text-align: center;
 }
 
-.main .sorev-title a {
+.sorev .title a {
     color: rgb(43, 42, 41);
-    text-align: center;
     text-decoration: none;
 }
 
-.main .wrapper-slider {
+.wrapper-slider {
     position: relative;
     border-radius: 10px;
     margin: 0 auto;
-    /* overflow: hidden; */
-    /* border: 2px solid rgba(63, 63, 63, 0.527); */
 }
 
-.main .sorev-slider {
+.sorev-slider {
     margin: 0 auto;
     padding: 5px 0;
     width: calc(100% - 90px);
@@ -33,7 +30,7 @@
     position: relative;
 }
 
-.main .strelka {
+.strelka {
     height: 100%;
     width: 45px;
     /* background-color: rgba(63, 63, 63, 0.527); */
@@ -46,7 +43,7 @@
     justify-content: space-around;
 }
 
-.main .strelka.prev {
+.strelka.prev {
     top: 0;
     left: 0;
     /* background: linear-gradient(to left, transparent 10%, #777); */
@@ -55,7 +52,7 @@
     /* border-radius: 10px 0 0 10px; */
 } 
 
-.main .strelka.next {
+.strelka.next {
     top: 0;
     right: 0;
     /* background: linear-gradient(to right, transparent 1%, #333); */
@@ -64,7 +61,7 @@
     /* border-radius: 0 10px 10px 0; */
 }
 
-/* .main .strelka div {
+/* .strelka div {
     position: relative;
     width: 40px;
     height: 40px;
@@ -75,16 +72,16 @@
     transition: .2s linear;
 }
 
-.main .strelka.prev div {
+.strelka.prev div {
     transform: rotate(-45deg);
 }
 
-.main .strelka.next div {
+.strelka.next div {
     transform: rotate(135deg);
 }
 
-.main .strelka div::after,
-.main .strelka div::before {
+.strelka div::after,
+.strelka div::before {
     content: " ";
     height: 4px;
     background-color: #fff;
@@ -93,25 +90,22 @@
     position: absolute;
 }
 
-.main .strelka div::after {
+.strelka div::after {
     width: 16px;
     top: 13px;
     left: 17px;
 }
 
-.main .strelka div::before {
+.strelka div::before {
     width: 20px;
     top: 21px;
     left: 5px;
     transform: rotate(90deg);
 } */
 
-.main .strelka div {
+.strelka div {
     width: 30px;
     height: 60px;
-
-    /* background-color: #dddddd; */
-    /* opacity: 0.8; */
     border: 1px solid #000;
     border-radius: 5px;
 
@@ -120,54 +114,47 @@
     background-repeat: no-repeat;
     background-position: center;
 
-    /* box-shadow: 0 0 7px rgba(65, 64, 64, 0.767);
-    transition: .2s linear;  */
-
     position: absolute;
     top: calc(50% - 30px);
 }
 
-.main .strelka.prev div {
+.strelka.prev div {
     transform: rotate(180deg);
 }
 
-.main .strelka div:hover {
+.strelka div:hover {
     box-shadow: 0 0 4px rgba(65, 64, 64, 0.767);
     transition: .2s linear;
 }
 
-.main .sorev-list-coming,
-.main .sorev-list-past {
+.sorev-list-coming,
+.sorev-list-past {
     display: flex;
     list-style: none;
 }
 
-.main .sorev-item {
+.sorev-item {
     transition: .4s linear;
     margin-top: auto;
 }
 
-.main .sorev-item:not(:last-child) {
+.sorev-item:not(:last-child) {
     margin-right: 20px;
 }
 
-/* .main .sorev-item {
-    margin-left: 15px;
-} */
-
-.main .sorev-item-title {
+.sorev-item-title {
     font-weight: bold;
     text-align: center;
     font-size: 22px;
     margin-bottom: 5px;
 }
 
-.main .sorev-item-title a {
+.sorev-item-title a {
     text-decoration: none;
     color: #0357d6;
 }
 
-.main .sorev-item-block {
+.sorev-item-block {
     background-color: #fff;
     width: 250px; 
     border-radius: 10px;
@@ -177,16 +164,16 @@
     position: relative;
 }
 
-.main .sorev-list-coming .sorev-item-block {
+.sorev-list-coming .sorev-item-block {
     height: 300px;  
 }
 
-.main .sorev-list-past .sorev-item-block {
+.sorev-list-past .sorev-item-block {
     height: 250px;  
 }
 
-.main .sorev-list-coming .img,
-.main .sorev-list-past .img {
+.sorev-list-coming .img,
+.sorev-list-past .img {
     overflow: hidden;
     position: relative;
     width: 100%;
@@ -195,48 +182,48 @@
     justify-content: center;
 }
 
-.main .sorev-list-coming .img {
+.sorev-list-coming .img {
     height: 225px; 
 }
 
-.main .sorev-list-past .img {
+.sorev-list-past .img {
     height: 190px;
 }
 
-.main .sorev-list-coming .img img,
-.main .sorev-list-past .img img {
+.sorev-list-coming .img img,
+.sorev-list-past .img img {
     height: 100%; 
 }
 
-.main .sorev-list-coming .img img {
+.sorev-list-coming .img img {
     min-height: 225px;
 }
 
-.main .sorev-list-past .img img {
+.sorev-list-past .img img {
     min-height: 190px;
 }
 
-.main .sorev-item .caption {
+.sorev-item .caption {
     padding: 5px;
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.65);
     font-size: 14px;
     font-weight: bold;
     width: calc(100% - 10px);
 
-    text-shadow: 0 0 3px #fff;
+    text-shadow: 0 0 2px #fff;
 
     position: absolute;
     bottom: 0;
     left: 0;
 }
 
-.main .sorev-item .caption .bold {
+.sorev-item .caption .bold {
     font-size: 12px;
     font-style: italic;
-    font-weight: normal;
+    font-weight: bold;
 }
 
-.main .sorev-item-block a {
+.sorev-item-block a {
     color: #fff;
     text-decoration: none;
     width: 100%;
@@ -246,52 +233,52 @@
     justify-content: center;
 }
 
-.main .sorev-item .btn-block {
+.sorev-item .btn-block {
     display: flex;
 }
 
-.main .sorev-item .btn-regr,
-.main .sorev-item .btn-forum,
-.main .sorev-item .btn-map,
-.main .sorev-item .btn-photo {
+.sorev-item .btn-regr,
+.sorev-item .btn-forum,
+.sorev-item .btn-map,
+.sorev-item .btn-photo {
     height: 30px;
     cursor: pointer;
 }
 
-.main .sorev-item .btn-regr {
+.sorev-item .btn-regr {
     background-color: rgb(210, 55, 48);
     width: 100%;
     height: 45px;
 }
 
-.main .sorev-item .btn-regr:hover {
+.sorev-item .btn-regr:hover {
     background-color:  rgb(151, 40, 34);
 }
 
-.main .sorev-item .btn-forum {
+.sorev-item .btn-forum {
     background-color: rgb(114, 114, 114);
     width: 50%;
 }
 
-.main .sorev-item .btn-forum:hover {
+.sorev-item .btn-forum:hover {
     background-color: rgb(90, 90, 90);
 }
 
-.main .sorev-item .btn-map {
+.sorev-item .btn-map {
     background-color:  #0357d6;
     width: 50%;
 }
 
-.main .sorev-item .btn-map:hover {
+.sorev-item .btn-map:hover {
     background-color:  #013d97;
 }
 
-.main .sorev-item .btn-photo {
+.sorev-item .btn-photo {
     background-color: rgb(3, 77, 31);
     width: 100%;
 }
 
-.main .sorev-item .btn-photo:hover {
+.sorev-item .btn-photo:hover {
     background-color: rgb(35, 155, 115);
 }
 
@@ -309,13 +296,14 @@
 
 .sorev-all .sorev-list-coming .sorev-item,
 .sorev-all .sorev-list-past .sorev-item  {
-    margin: 0 0 20px;
+    margin: auto 0 20px;
     padding: 5px;
+    width: 250px;
 }
 
 /* ----------- ----------- */
 
-.main .news-menu {
+.news-menu {
     flex: 0 0 calc(20% - 20px);
     display: flex;
     flex-direction: column;
@@ -324,33 +312,64 @@
     color: #fff;
     background-color: rgb(43, 42, 41);
     padding: 10px;
+    /* height: calc(100% - 20px); */
+
+    position: relative;
 }
 
-.main .news-menu .title {
-    padding: 10px 0;
+.news-menu .title {
+    /* padding: 10px 0; */
     text-align: center;
 }
 
-.main .news-menu .news-item:not(:last-child) {
+.news-menu .news-item:not(:last-child) {
     margin-bottom: 10px;
 }
 
-.main .news-menu .bold {
+.news-menu .bold {
     font-weight: bold;
 }
 
-.main .news-menu a {
+.news-menu a {
     color: #fff;
     text-decoration: none;
     display: inline;
 }
 
-.main .news-menu a:hover {
+.news-menu a:hover {
     text-decoration: underline;
 }
 
-.main .news-menu iframe {
+.news-menu iframe {
     border: none;
     width: 100%;
     height: 310px;
+}
+
+.news-menu .burger {
+    position: absolute;
+    top: calc(50% - 30px);
+    left: -15px;
+
+    display: none;
+    align-items: center;
+
+    padding: 15px 3px;
+    background-color:  rgb(43, 42, 41);
+    border-radius: 100px 0 0 100px;
+} 
+
+.news-menu .icon-burg {
+    margin: 0 2px;
+    width: 2px;
+    background-color: #fff;
+    border-radius: 3px;
+} 
+
+.news-menu .icon-burg:first-child {
+    height: 25px;
+}
+
+.news-menu .icon-burg:last-child {
+    height: 30px;
 }

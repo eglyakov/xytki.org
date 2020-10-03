@@ -70,13 +70,13 @@ class AddCar extends React.Component {
     render() {
         return (
             <BrowserRouter>
-            <div className="addCar">
-                <h2 className="addCar-title">Информация об автомобиле</h2>
-                <div className="carInfo">
-                    <div className="carInfoBlock">
-                        <p className="">
+            <div className="addCar width">
+                <h2 className="title">Информация об автомобиле</h2>
+                <div className="infoBlock">
+                    <div className="inputBlock">
+                        <p>
                             <label>Марка*</label>
-                            <select className="" name="marka" required="">
+                            <select name="marka" required="">
                                 <option value="" selected></option>
                                 <option value="Acura">Acura</option>
                                 <option value="Alfa Romeo">Alfa Romeo</option>
@@ -182,25 +182,25 @@ class AddCar extends React.Component {
                                 <option value="Эксклюзив">Эксклюзив</option>
                             </select>
                         </p>
-                        <p className="">
+                        <p>
                             <label>Модель*</label>
-                            <input type="text" className="" name="model" />
+                            <input type="text" name="model" />
                         </p>
-                        <p className="">
+                        <p>
                             <label>Гос. номер</label>
-                            <input type="text" className="" name="gosnomer" />
+                            <input type="text" name="gosnomer" />
                         </p>
-                        <p className="">
+                        <p>
                             <label>Год выпуска*</label>
-                            <input type="text" className="" name="year" />
+                            <input type="text" name="year" />
                         </p>
-                        <p className="">
+                        <p>
                             <label>Объём двигателя (см<sup>3</sup>)*</label>
-                            <input type="text" className="" name="dvig" />
+                            <input type="text" name="dvig" />
                         </p>
-                        <p className="">
+                        <p>
                             <label>Топливо*</label>
-                            <select className="" name="fuel">
+                            <select name="fuel">
                                 <option value="" selected=""></option>
                                 <option value="Бензин">Бензин</option>
                                 <option value="Дизель">Дизель</option>
@@ -216,10 +216,10 @@ class AddCar extends React.Component {
                         </p>
                     </div>
 
-                    <div className="carInfoBlock">
-                        <p className="">
+                    <div className="inputBlock">
+                        <p>
                             <label>Колесная формула*</label>
-                            <select className="" name="kformula">
+                            <select name="kformula">
                                 <option value="" selected=""> </option>
                                 <option value="4x4">4x4</option>
                                 <option value="4x2">4x2</option>
@@ -229,9 +229,9 @@ class AddCar extends React.Component {
                                 <option value="Другая">Другая</option>
                             </select>
                         </p>
-                        <p className="">
+                        <p>
                             <label>Тип кузова</label>
-                            <select className="" name="kuzov">
+                            <select name="kuzov">
                                 <option value="" selected=""></option>
                                 <option value="внедорожник 3 дв.">внедорожник 3 дв.</option>
                                 <option value="внедорожник 5 дв.">внедорожник 5 дв.</option>
@@ -247,43 +247,43 @@ class AddCar extends React.Component {
                                 <option value="другой">другой</option>
                             </select>
                         </p>
-                        <p className="">
+                        <p>
                             <label>Имя авто или модификация</label>
                             <input type="text" className="form-control" name="modification" />
                         </p>
-                        <p className="">
+                        <p>
                             <label>Цвет</label>
                             <input type="text" className="form-control" name="color" />
                         </p>
-                        <p className="">
+                        <p>
                             <label>Коробка передач</label>
-                            <select className="" name="korobka">
+                            <select name="korobka">
                                 <option value="" selected=""></option>
                                 <option value="Механическая">Механическая</option>
                                 <option value="Автоматическая">Автоматическая</option>
                             </select>
                         </p>
-                        <p className="">
+                        <p>
                             <label>ФИО владельца по Техпаспорту</label>
-                            <input type="text" className="" name="fiotex" />
+                            <input type="text" name="fiotex" />
                         </p>
                     </div>
 
-                    <div className="carInfoBlock">
+                    <div className="inputBlock">
                         <p className="text-center">Страховка ТС</p>
-                        <p className="">
+                        <p>
                             <label>Дата с</label>
                             <input type="date" className="form-control" name="datesstrax" />
                         </p>
-                        <p className="">
+                        <p>
                             <label>Дата по</label>
                             <input type="date" className="form-control" name="datepostrax" />
                         </p>
-                        <p className="">
+                        <p>
                             <label>Серия и номер</label>
                             <input type="text" className="form-control" name="serinomstrax" />
                         </p>
-                        <p className="">
+                        <p>
                             <label>Страховая компания</label>
                             <select className="custom-select" name="compstrax">
                                 <option value=""></option>
@@ -305,7 +305,7 @@ class AddCar extends React.Component {
                         </p>
                     </div>
 
-                    <div className="carAddImg">
+                    <div className="addImg">
                         <div className="caption1">
                             Перетащите сюда файл для загрузки<br />
                             или
@@ -320,8 +320,8 @@ class AddCar extends React.Component {
                     </div>
                 </div>
 
-                <div className="carParam">
-                    <div className="carParamBlock">
+                <div className="parameters">
+                    <div className="parametersBlock">
                         <div className="title" onClick={this.openTiParam}>Техническая информация</div>
 
                         {this.state.openTi ?
@@ -393,7 +393,7 @@ class AddCar extends React.Component {
                         : null}
                     </div>
 
-                    <div className="carParamBlock leb">
+                    <div className="parametersBlock leb">
                         <div className="title" onClick={this.openLebParam}>Лебёдка</div>
 
                         {this.state.openLeb ?
@@ -418,7 +418,7 @@ class AddCar extends React.Component {
                         : null}
                     </div>
 
-                    <div className="carParamBlock modern">
+                    <div className="parametersBlock modern">
                         <div className="title" onClick={this.openMaParam}>Модернизация автомобиля</div>
 
                         {this.state.openMa ?

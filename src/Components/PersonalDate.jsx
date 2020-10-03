@@ -6,63 +6,63 @@ class PersonalDate extends React.Component {
 
     render() {
         return (
-            <div className="addCar">
-                <h2 className="addCar-title">Личные данные</h2>
-                <div className="carInfo">
-                    <div className="carInfoBlock">
-                        <p className="">
+            <div className="person width">
+                <h2 className="title">Личные данные</h2>
+                <div className="infoBlock">
+                    <div className="inputBlock">
+                        <p>
                             <label>Фамилия*</label>
-                            <input type="text" className="" name="first_name" />
+                            <input type="text" name="first_name" />
                         </p>
-                        <p className="">
+                        <p>
                             <label>Имя*</label>
-                            <input type="text" className="" name="last_name" />
+                            <input type="text" name="last_name" />
                         </p>
-                        <p className="">
+                        <p>
                             <label>Отчество*</label>
-                            <input type="text" className="" name="father_name" />
+                            <input type="text" name="father_name" />
                         </p>
-                        <p className="">
+                        <p>
                             <label>Телефон*</label>
-                            <input type="phone" className="" name="phone" placeholder="+375(  )" />
+                            <input type="phone" name="phone" placeholder="+375(  )" />
                         </p>
                     </div>
 
-                    <div className="carInfoBlock">
-                        <p className="">
+                    <div className="inputBlock">
+                        <p>
                             <label>Пол</label>
-                            <select className="" name="pol">
+                            <select name="pol">
                                 <option value="" selected=""> </option>
                                 <option value="Мужской">Мужской</option>
                                 <option value="Женский">Женский</option>
                             </select>
                         </p>
-                        <p className="">
+                        <p>
                             <label>Дата с</label>
                             <input type="date" name="berthday" />
                         </p>
-                        <p className="">
+                        <p>
                             <label>Город</label>
-                            <input type="text" className="" name="city" />
+                            <input type="text" name="city" />
                         </p>
-                        <p className="">
+                        <p>
                             <label>Гражданство</label>
-                            <input type="text" className="" name="grazhd" />
+                            <input type="text" name="grazhd" />
                         </p>
                     </div>
 
-                    <div className="carInfoBlock">
-                        <p className="">
+                    <div className="inputBlock">
+                        <p>
                             <label>Ник</label>
                             <input type="text"  name="nik" />
                         </p>
-                        <p className="">
+                        <p>
                             <label>Клуб</label>
                             <input type="text" name="club" />
                         </p>
-                        <p className="">
+                        <p>
                             <label>Рязряд / звание</label>
-                            <select className="" name="razryad">
+                            <select name="razryad">
                                 <option value="" selected=""> </option>
                                 <option value="МС">МС</option>
                                 <option value="КМС">КМС</option>
@@ -73,7 +73,7 @@ class PersonalDate extends React.Component {
                         </p>
                     </div>
 
-                    <div className="carAddImg">
+                    <div className="addImg">
                         <div className="caption1">
                             Перетащите сюда файл для загрузки<br />
                             или

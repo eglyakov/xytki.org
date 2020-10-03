@@ -5,7 +5,7 @@ const SorevComingAll = () => {
     
     return (       
         <div className="sorev-all">
-            <h2 className="sorev-title">Предстоящие мероприятия</h2>
+            <h2 className="title">Предстоящие мероприятия</h2>
             <ul className="sorev-list-coming">
                 {getSorevComing()}
             </ul>
