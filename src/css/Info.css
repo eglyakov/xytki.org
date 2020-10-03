@@ -1,0 +1,100 @@
+.info {
+    width: 90%;
+    margin: 0 auto;
+    font-size: 18px;
+}
+
+.info .title {
+    padding: 15px 0 10px;
+    text-align: center;
+}
+
+.info .block {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.info .item {
+    margin-left: 10px;
+}
+
+.info .item a {
+    color: rgb(43, 42, 41);
+    text-decoration: none;
+}
+
+.info .item a:hover {
+    text-decoration: underline;
+}
+
+
+
+.infoPage .title {
+    font-size: 20px;
+}
+
+.infoPage .caption {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.infoPage .caption2 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.infoPage h5 {
+    text-align: center;
+    margin: 20px 0 10px;
+    font-size: 18px;
+}
+
+.infoPage ul {
+    margin: 0 40px;
+}
+
+.infoPage p,
+.infoPage li {
+    margin-bottom: 10px;
+}
+
+.infoPage .img {
+    max-width: 800px;
+    margin: 0 auto 20px;
+}
+
+.infoPage .img img {
+    width: 100%;
+}
+
+.infoPage p a {
+    /* color: rgb(43, 42, 41); */
+    color: rgb(210, 55, 48);
+    text-decoration: none;
+    
+}
+
+.infoPage p a:hover {
+    text-decoration: underline;
+}
+
+.infoPage .bold {
+    font-weight: bold;
+}
+
+.infoPage table {
+    border: 1px solid rgb(43, 42, 41);
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.infoPage table td,
+.infoPage table th {
+    border: 1px solid rgb(43, 42, 41);
+    padding: 5px;
+}
+
+.infoPage table td:first-child {
+    width: 20%;
+}
+

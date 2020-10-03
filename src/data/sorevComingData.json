@@ -4,32 +4,35 @@
         "img": "/static/media/imgSorev.ef3d9b1b.jpg",
         "date": "02.10.2020 - 04.10.2020",
         "dateReg": "02.09.2020 - 01.10.2020",
-        "place": "Брестская обл., Кобринский р-н возле д. Зосимы"
+        "place": "Брестская обл., Кобринский р-н возле д. Зосимы",
+        "linkSorev": "/doh-bolota",
+        "linkForum": "http://4x4.by/forum/viewtopic.php?f=11&t=26709&view=unread#unread",
+        "linkMap": "https://drive.google.com/file/d/12K3Ok2R608-1dS6zBW1ED21ijHwsA8Bf/view"
     },
     {
         "name": "Дахловские балота",
-        "img": "/static/media/imgSorev.ef3d9b1b.jpg",
+        "img": "https://xytki.org/events/6/Dahl.png",
         "date": "02.10.2020 - 04.10.2020",
         "dateReg": "02.09.2020 - 01.10.2020",
         "place": "Брестская обл., Кобринский р-н возле д. Зосимы"
     },
     {
         "name": "Дахловские балота",
-        "img": "/static/media/imgSorev.ef3d9b1b.jpg",
+        "img": "https://xytki.org/events/35/35.png",
         "date": "02.10.2020 - 04.10.2020",
         "dateReg": "02.09.2020 - 01.10.2020",
         "place": "Брестская обл., Кобринский р-н возле д. Зосимы"
     },
     {
         "name": "Дахловские балота",
-        "img": "/static/media/imgSorev.ef3d9b1b.jpg",
+        "img": "https://xytki.org/events/7/Kol2020baner.png",
         "date": "02.10.2020 - 04.10.2020",
         "dateReg": "02.09.2020 - 01.10.2020",
         "place": "Брестская обл., Кобринский р-н возле д. Зосимы"
     },
     {
         "name": "балота",
-        "img": "/static/media/imgSorev.ef3d9b1b.jpg",
+        "img": "https://xytki.org/events/8/%D0%B0%D1%84%D0%B8%D1%88%D0%B0.png",
         "date": "02.10.2020 ----",
         "dateReg": "02.09.2020 - 01.10.2020",
         "place": "Брестская обл., Кобринский р-н возле д. Зосимы"

@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    background-color: #cdcdcd;
+    background-image: url(../img/fon2.jpg);
+    background-size: auto;
+    background-attachment: fixed;
+    color: rgb(43, 42, 41);
+}
+
+a {
+    display: inline-block;
+}
+
+.container {
+    /* max-width: 1280px;
+    margin: 0 auto; */
+}
+
+.header {
+    /* background-color: #fed136; */
+    background-color: #bdbdbd;
+    box-shadow: 0 2px 5px  rgb(210, 55, 48);
+    /* border-bottom: 3px solid rgb(210, 55, 48); */
+    padding: 5px 0;
+    position: relative;
+    z-index: 1;
+}
+
+.header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.header a {
+    text-decoration: none;
+    color: rgb(43, 42, 41);
+}
+
+.header .logo {
+    width: 20%;
+}
+
+.header .logo img {
+    width: 100%;
+}
+
+.header .btn-auth {
+    border: 2px solid rgb(43, 42, 41);
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+.main {
+    position: relative;
+}
+
+.main .container {
+    display: flex;
+    justify-content: space-between;
+    /* align-items: start; */
+
+    min-height: 705px;
+    background-color: #e6e6e6da;
+}
+
+.footer .container {
+    background-color: rgb(43, 42, 41);
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    font-size: 12px;
+    font-weight: 300;
+}
+
+
+
+/* ----------------------- */
+

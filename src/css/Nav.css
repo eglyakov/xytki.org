@@ -1,0 +1,39 @@
+.header .nav ul {
+    display: flex;
+    flex-wrap: wrap;
+
+    list-style: none;
+    text-transform: uppercase;
+}
+
+.header .nav li {
+    
+}
+
+.header .nav .nav-item {
+    position: relative;
+}
+
+.header .nav a {
+    /* width: 100%; */
+    padding: 5px 10px;
+}
+
+.header .nav a:hover {
+    text-decoration-line: underline;
+}
+
+.header .nav .hover-DM:hover .down-menu {
+    display: flex;
+}
+
+.header .nav .down-menu {
+    display: none;
+    position: absolute;
+    bottom: -57px;
+    left: 0px;
+    background-color:  #bdbdbd;;
+    border-radius: 0 0 5px 5px;
+    z-index: 2;
+    /* transition: .6s linear; */
+}

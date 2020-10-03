@@ -1,0 +1,146 @@
+.wrapper-auth {
+    margin: 50px auto 0;
+}
+
+.auth {
+    width: 350px;
+    /* max-height: 650px; */
+    padding-bottom: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(71, 71, 71);
+}
+
+.auth .logo {
+    width: 100%;
+    
+    padding: 20px 0;
+    border-bottom: 2px solid rgb(210, 55, 48);
+}
+
+.auth .logo .img {
+    margin: 0 auto;
+    width: 300px;
+}
+
+.auth .logo img {
+    width: 100%;
+}
+
+.auth .btn-block {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.auth .btn-block a {
+    width: 50%;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 18px;
+    background-color:  #bdbdbd;
+    color:  #474747;
+    text-decoration: none;
+}
+
+.auth .btn-block a.active {
+    background-color:  #ffffff;
+    color:  #474747;
+}
+
+.auth .form-regr,
+.auth .form-enter {
+    display: flex;
+    flex-direction: column;
+
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.auth .form-regr input,
+.auth .form-enter input {
+    padding: 5px 10px;
+    margin-top: 10px;
+    font-size: 18px;
+    border-radius: 5px;
+    border: 1px solid  rgb(210, 55, 48);
+}
+
+.auth .btn-form-regr,
+.auth .btn-form-enter {
+    padding: 10px 0;
+    margin-top: 10px;
+
+    background-color:  rgb(210, 55, 48);
+    border: 1px solid  rgb(210, 55, 48);
+    border-radius: 5px;
+    font-size: 18px;
+    color: #fff;
+}
+
+.auth .btn-form-enter {
+    margin-top: 20px;
+}
+
+.auth .form-enter .reset-pass {
+    margin-top: 10px;
+}
+
+.auth .remember-block input {
+    cursor: pointer;
+}
+
+.auth .remember-block label {
+    padding-left: 5px;
+    cursor: pointer;
+}
+
+.auth .form-enter .or {
+    margin: 10px 0;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.auth .form-enter a {
+    text-decoration: none;
+}
+
+.auth .btn-google,
+.auth .btn-yandex {
+    width: 100%;
+    padding: 10px 0;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+
+    display: flex;
+}
+
+.auth .btn-google {
+    background-color:  rgb(215, 97, 75);
+    border: 1px solid  rgb(215, 97, 75);
+    color: #fff;
+}
+
+.auth .btn-yandex {
+    background-color:  rgb(241, 210, 71);
+    border: 1px solid  rgb(241, 210, 71);
+    color: rgb(210, 55, 48);
+    margin-top: 10px;
+}
+
+.auth .icon {
+    width: 50px;
+    height: 20px;
+    border-right: 1px solid #fff;
+    margin-right: 15px;
+}
+
+.auth .btn-yandex .icon {
+    border-right: 1px solid rgb(210, 55, 48);
+}
+
+.auth .icon img {
+    height: 100%;
+}

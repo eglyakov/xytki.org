@@ -1,37 +1,39 @@
 import React from 'react';
 import SorevComingData from '../../data/sorevComingData.json';
+import {Link} from 'react-router-dom';
+import img from '../../img/imgSorev.jpg'
+import logoImg from '../../img/logo.png';
+
+export const getSorevComing = () => {
+    let list = SorevComingData.map((element, index) => {
+        return (
+            <li key={index} className="sorev-item">
+                <div className="sorev-item-title"><Link to={element.linkSorev}>{element.name}</Link></div>
+    
+                <div className="sorev-item-block">
+                    <div className="img">
+                        <img src={element.img || logoImg} alt="банер соревнования" />
+                        <div className="caption">
+                            <div><span className="bold">Дата:</span> {element.date}</div>
+                            <div><span className="bold">Регистрация:</span> {element.dateReg}</div>
+                            <div><span className="bold">Место:</span> {element.place}</div>
+                        </div>
+                    </div>
+    
+                    <div className="btn-block">
+                        <div className="btn-forum"><a href={element.linkForum} target="_blanck">Форум</a></div>
+                        <div className="btn-map"><a href={element.linkMap} target="_blanck">Карта</a></div>
+                    </div>
+                    <div className="btn-regr"><Link to={element.linkSorev}>Подать заявку</Link></div>
+                </div>
+            </li>
+        );
+    });
+
+    return list;
+}
 
 const SorevComing = () => {
-
-    const getSorevComing = () => {
-        let list = SorevComingData.map((element, index) => {
-            return (
-                <li key={index} className="sorev-item">
-                    <div className="sorev-item-title">{element.name}</div>
-        
-                    <div className="sorev-item-block">
-                        <div className="img">
-                            <img src={element.img} alt="банер соревнования" />
-                            <div className="caption">
-                                <div><span className="bold">Дата:</span> {element.date}</div>
-                                <div><span className="bold">Регистрация:</span> {element.dateReg}</div>
-                                <div><span className="bold">Место:</span> {element.place}</div>
-                            </div>
-                        </div>
-        
-                        <div className="btn-block">
-                            <div className="btn-forum">Форум</div>
-                            <div className="btn-map">Карта</div>
-                        </div>
-                        <div className="btn-regr">Подать заявку</div>
-                    </div>
-                </li>
-            );
-        });
-
-        return list;
-    }
-
     const prevSlide = () => {
         const carousel = document.querySelector('.sorev-list-coming'),
             list = carousel.querySelectorAll('.sorev-item'),
@@ -69,7 +71,9 @@ const SorevComing = () => {
             listWidthAll += list[i].clientWidth + marginRight;
         }    
 
-        if((carousel.clientWidth + marginLeft) < listWidthAll - marginRight) {
+        listWidthAll -= marginRight;
+
+        if((carousel.clientWidth + marginLeft) < listWidthAll) {
             firstItem.style.marginLeft = `-${sumMarginLeft}px`;
         } else {
             return
@@ -93,8 +97,8 @@ const SorevComing = () => {
                     {getSorevComing()}
                 </ul>
             </div>
-            <div className="strelka prev"><div className="decor" onClick={prevSlide}></div></div>
-            <div className="strelka next"><div className="decor" onClick={nextSlide}></div></div>
+            <div className="strelka prev"><div className="decor" id="comingPrev" onClick={prevSlide}></div></div>
+            <div className="strelka next"><div className="decor" id="comingNext" onClick={nextSlide}></div></div>
         </div>
     );
 }

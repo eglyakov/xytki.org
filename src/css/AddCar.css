@@ -1,0 +1,209 @@
+.addCar {
+    width: 90%;
+    margin: 0 auto;
+    font-size: 18px;
+}
+
+.addCar input,
+.addCar select,
+.addCar textarea {    
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 1px solid  rgb(210, 55, 48);
+    font-size: 18px;
+}
+
+.addCar label {
+    padding-left: 5px;
+}
+
+.addCar-title {
+    padding: 15px 0 10px;
+    text-align: center;
+}
+
+.addCar .carInfo {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: start;
+    flex-wrap: wrap;
+}
+
+.addCar .carInfo .carInfoBlock {
+    width: 250px;
+    padding: 5px;
+}
+
+.addCar .carInfo p {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.addCar .carInfo .checkTurbo {
+    display: block;
+}
+
+
+.addCar .carInfo .carAddImg {
+    position: relative;
+    overflow: hidden;
+}
+
+.addCar .carInfo .carAddImg input {
+    padding: 65px 0 20px 40px;
+    border: 2px dashed rgb(210, 55, 48);
+    border-radius: 5px;
+}
+
+.addCar .carInfo .carAddImg .caption1 {
+    position: absolute;
+    top: 17px;
+
+    text-align: center;
+    width: 100%;
+}
+
+.addCar .carInfo .carAddImg .caption2 {
+    font-size: 14px;
+    text-align: center;
+}
+
+
+
+
+.addCar .carParam {
+    margin: 10px 0;
+    border: 1px solid #979797;
+    border-radius: 10px;
+    background-color: #bdbdbd;
+    overflow: hidden;
+}
+
+.addCar .carParamBlock .title {
+    padding: 10px 0;
+    text-align: center;
+    font-weight: bold;
+}
+
+.addCar .carParamBlock:not(:last-child) .title {
+    border-bottom: 1px solid  #979797;
+}
+
+.addCar .param {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+    padding: 10px 5px 5px;
+    background-color: #e4e4e4;
+    /* transition: 1s linear; */
+}
+
+.addCar .paramBlock {
+    /* width: 500px; */
+}
+
+.addCar .rel-title {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.addCar .paramBlockItem {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    margin-bottom: 10px;
+}
+
+.addCar .paramBlockItem .wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.addCar .paramBlockItem p {
+    width: 170px;
+    text-align: center;
+}
+
+.addCar .paramBlockItem .del {
+    width: 20px;
+    text-align: center;
+}
+
+.addCar .paramBlockItem input {
+    max-width: 100px;
+} 
+
+
+
+.addCar .modern .titleModernBlock {
+    margin: 5px 5px 0 5px
+}
+
+.addCar .modern .modern-btn {
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+}
+
+.addCar .modern .modern-btn:not(:last-child) {
+    /* margin-right: 10px; */
+}
+
+.addCar .modern .modern-btn a {
+    padding: 5px 10px;
+    font-size: 18px;
+    text-decoration: none;
+
+    color: #fff;
+    background-color: rgb(210, 55, 48);
+    border: 1px outset rgb(210, 55, 48);
+    border-radius: 5px;
+}
+
+.addCar .modern .modern-btn a:hover {
+    background-color: rgb(117, 40, 33);
+}
+
+.addCar .modern .modern-btn a.active {
+    background-color: rgb(50, 177, 77);
+    border: 1px outset  rgb(50, 177, 77);
+}
+
+.addCar .modern .paramBlock {
+    width: 600px;
+}
+
+.addCar .modern .paramBlock select,
+.addCar .modern .paramBlock input,
+.addCar .modern .paramBlock textarea {
+    margin-left: 5px;
+}
+
+.addCar .modern .paramBlock p {
+    margin-bottom: 10px;
+}
+
+.addCar .modern .dr-mod {
+    display: flex;
+    align-items: center;
+}
+
+.addCar .save {
+    margin: 5px 0 10px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.addCar .save button {
+    padding: 10px 20px;
+    font-size: 18px;
+    color: #fff;
+    background-color: rgb(50, 177, 77);
+    border: 1px solid  rgb(50, 177, 77);
+    border-radius: 5px;
+}
